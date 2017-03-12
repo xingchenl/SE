@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zzu.xingchen.se">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".MyApplacions"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_me"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeAct"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ImageViewActivity.img1" />
+        <activity android:name=".ImageViewActivity.img2" />
+        <activity android:name=".ImageViewActivity.img3" />
+        <activity android:name=".ImageViewActivity.img4" />
+        <activity android:name=".ImageViewActivity.img5" />
+        <activity android:name=".ImageViewActivity.img6" />
+        <activity android:name=".message" />
+        <activity android:name=".persion.Myinformation" />
+        <activity android:name=".persion.MyRelease" />
+        <activity android:name=".persion.UseStatistics" />
+        <activity
+            android:name=".logActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        >
+        <activity
+            android:name=".registActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".persion.Mypraise" />
+        <activity android:name=".persion.MyDrafts" />
+        <activity android:name=".LeavMessage"></activity>
+    </application>
+
+</manifest>

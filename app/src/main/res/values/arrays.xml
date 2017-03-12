@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="spinnername">
+            <item>学校</item>
+            <item>企业 </item>
+            <item>管理员</item>
+
+        </string-array>
+    <string-array name="typer">
+        <item>学校</item>
+        <item>企业 </item>
+        <item>校企联谊</item>
+        <item>招聘</item>
+    </string-array>
+    </resources>

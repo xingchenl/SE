@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">校企联合</string>
+
+
+    <string name="tab_menu_alert">主页</string>
+    <string name="tab_menu_profile">消息</string>
+    <string name="tab_menu_pay">我的</string>
+    <string name="tab_menu_setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

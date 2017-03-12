@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/item_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+           <com.zzu.xingchen.se.view.CircleImg
+               android:id="@+id/list_item_img"
+               android:layout_marginLeft="20dp"
+               android:layout_width="50dp"
+               android:layout_height="wrap_content"
+               android:src="@drawable/school"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/myTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="title"/>
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="data"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+
+            android:background="#e1c1c6bc"
+            android:layout_height="1dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55a69b"
+
+    tools:context="com.zzu.xingchen.se.logActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/userNameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:text="User"
+                android:textColor="#CEC9E7"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/accountLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userNameTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/login_user" />
+
+                <EditText
+                    android:id="@+id/log_textview1"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:text="18039225721"
+                    android:textColor="#1c2120"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="240dp"
+                android:layout_height="1dp"
+                android:layout_below="@id/accountLayout"
+                android:layout_centerHorizontal="true"
+                android:background="#CEC9E7" />
+
+            <LinearLayout
+                android:id="@+id/pwdLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/login_pwd" />
+
+                <EditText
+                    android:id="@+id/log_textview2"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:text="123123"
+                    android:textColor="#111115"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="240dp"
+                android:layout_height="1dp"
+                android:layout_below="@id/pwdLayout"
+                android:layout_centerHorizontal="true"
+                android:background="#CEC9E7" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="#77c9be"
+                android:padding="10dp"
+                android:text="登陆"
+                android:textColor="#CEC9E7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loginBtn"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:text="忘记了你的密码?"
+                android:textColor="#CEC9E7"
+                android:textSize="14sp"
+                android:id="@+id/button2" />
+
+            <Button
+                android:id="@+id/creat_TaxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="还没有账户？点击创建"
+                android:textColor="#CEC9E7"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</RelativeLayout>
